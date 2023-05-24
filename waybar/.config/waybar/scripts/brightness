@@ -1,0 +1,8 @@
+#!/bin/sh
+
+max=$(brightnessctl m)
+current=$(brightnessctl g)
+
+percentage=$(python -c "print(int(($current/$max)*100))")
+
+echo $percentage;

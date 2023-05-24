@@ -1,0 +1,7 @@
+[user]
+	name = Naman Arora
+	email = namanarora1022@gmail.com
+[init]
+	defaultBranch = master
+[pull]
+	rebase = false
